@@ -13,7 +13,7 @@ export default function Navbar() {
       <div className="container flex h-16 items-center justify-between py-2 px-4 sm:px-6">
         <div className="flex items-center gap-2">
           <Scissors className="h-6 w-6" />
-          <span className="text-xl font-bold">ClipMaster</span>
+          <span className="text-xl font-bold">Collins Hair Studio</span>
         </div>
 
         {/* Desktop Navigation */}

@@ -15,7 +15,7 @@ const barbers = [
     branch: "Downtown",
     tagline: "Making heads turn since 2015",
     styles: "Men & Women",
-    image: "/placeholder.svg?height=300&width=300&text=James+Wilson",
+    image: "/barber1.jpeg?height=300&width=300&text=James+Wilson",
     color: "bg-blue-500",
   },
   {
@@ -24,7 +24,7 @@ const barbers = [
     branch: "Uptown",
     tagline: "Your hair's best friend",
     styles: "Men",
-    image: "/placeholder.svg?height=300&width=300&text=Michael+Brown",
+    image: "/barber2.jpeg?height=300&width=300&text=Michael+Brown",
     color: "bg-purple-500",
   },
   {
@@ -33,7 +33,7 @@ const barbers = [
     branch: "Westside",
     tagline: "Transforming looks, boosting confidence",
     styles: "Men & Women",
-    image: "/placeholder.svg?height=300&width=300&text=Sarah+Johnson",
+    image: "/barber3.jpeg?height=300&width=300&text=Sarah+Johnson",
     color: "bg-pink-500",
   },
   {
@@ -57,7 +57,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/60 z-10" />
         <div className="relative h-[450px] sm:h-[500px] w-full">
           <Image
-            src="/placeholder.svg?height=500&width=1200"
+            src="/hero-1.jpeg?height=500&width=1200"
             alt="Barbershop interior"
             fill
             className="object-cover"
@@ -69,7 +69,7 @@ export default function Home() {
             Premium Haircuts & Grooming
           </h1>
           <p className="mt-4 sm:mt-6 max-w-md text-base sm:text-lg">
-            Experience the art of traditional barbering with modern techniques at ClipMaster.
+            Experience the art of traditional barbering with modern techniques at Collins Hair Studio.
           </p>
           <div className="mt-6 sm:mt-8 w-full max-w-3xl">
             <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">Our Branches</h2>
@@ -77,7 +77,7 @@ export default function Home() {
               <Link href="/branches/downtown">
                 <div className="relative h-36 sm:h-48 rounded-lg overflow-hidden group">
                   <Image
-                    src="/placeholder.svg?height=200&width=400&text=Downtown+Branch"
+                    src="/hero-2.jpeg?height=200&width=400&text=Downtown+Branch"
                     alt="Downtown Branch"
                     fill
                     className="object-cover transition-transform duration-300 group-hover:scale-105"
@@ -179,7 +179,7 @@ export default function Home() {
               <CardContent className="p-0">
                 <div className="relative h-40 sm:h-48 w-full">
                   <Image
-                    src="/placeholder.svg?height=200&width=400"
+                    src="/service-1.jpeg?height=200&width=400"
                     alt="Haircut"
                     fill
                     className="object-cover rounded-t-lg"
@@ -408,7 +408,7 @@ export default function Home() {
       <section className="bg-muted py-10 sm:py-16 px-4">
         <div className="container">
           <div className="flex flex-col sm:flex-row justify-between items-center mb-8">
-            <h2 className="text-2xl sm:text-3xl font-bold">ClipMaster Academy</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold">Collins Hair Studio</h2>
             <Link href="/academy">
               <Button variant="outline" className="mt-3 sm:mt-0">
                 Learn More
@@ -418,7 +418,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
             <div className="relative h-[300px] sm:h-[350px] rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=400&width=600&text=Barbering+Academy"
+                src="/hero-3.jpeg?height=400&width=600&text=Barbering+Academy"
                 alt="ClipMaster Academy"
                 fill
                 className="object-cover"
@@ -427,7 +427,7 @@ export default function Home() {
             <div className="flex flex-col justify-center">
               <h3 className="text-xl sm:text-2xl font-bold mb-3">Master the Art of Barbering</h3>
               <p className="mb-3 text-sm">
-                ClipMaster Academy offers comprehensive training programs for aspiring barbers and stylists. Learn from
+              Collins Hair Studio offers comprehensive training programs for aspiring barbers and stylists. Learn from
                 industry professionals and gain hands-on experience in our state-of-the-art facilities.
               </p>
               <p className="mb-5 text-sm">

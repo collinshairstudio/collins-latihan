@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-3">
               <Scissors className="h-5 w-5" />
-              <span className="text-lg font-bold">ClipMaster</span>
+              <span className="text-lg font-bold">Collins Hair Studio</span>
             </div>
             <p className="text-muted-foreground text-sm">
               Premium barbershop providing quality haircuts and grooming services.
@@ -84,7 +84,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t mt-6 pt-6 text-center text-muted-foreground text-sm">
-          <p>© {new Date().getFullYear()} ClipMaster Barbershop. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Collins Hair Studio. All rights reserved.</p>
         </div>
       </div>
     </footer>
